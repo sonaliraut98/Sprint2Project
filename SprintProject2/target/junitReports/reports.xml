@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+<testcase classname="MyAccount" name="successful open MyAccount Webpage" time="0">
+<skipped><![CDATA[Given Initialize the browser with chrome....................................undefined
+When Navigate to "http://uniformm1.upskills.in/" Site.......................undefined
+And Click on Login link in home page to land on Secure in login Page........skipped
+When User enters <Email> and <password> and logs in.........................skipped
+Then Verify that user is succesfully open MyAccount Webpage.................skipped
+When Click on Edit your Account information link............................skipped
+Then Enter the Fax..........................................................skipped
+And Click on Continue button................................................skipped
+When Click on modify your wish list link....................................skipped
+Then My wishlist page should be displayed...................................skipped
+And Click on Continue button................................................skipped
+]]></skipped>
+</testcase>
+</testsuite>

@@ -1,0 +1,85 @@
+package PageObject;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class MyAccountPage {
+	
+private static final WebElement Editlnk = null;
+
+
+private static final WebElement modifylnk = null;
+
+
+private static final WebElement modifylnk1 = null;
+
+
+public	WebDriver driver;
+	
+	public void LoginPage(WebDriver rdriver){
+		
+		this.driver=rdriver;
+		PageFactory.initElements(rdriver,this);
+	}
+	
+	@FindBy(linkText="Edit your Account information")
+	WebElement clicklnk;
+	
+	
+	@FindBy(id="input-fax")
+	WebElement txtfax;
+	
+	@FindBy(xpath="//*[@id=\"content\"]/form/div/div[2]/input")
+	WebElement btncontinue;
+	
+	@FindBy(partialLinkText="Modify your wish list")
+	WebElement clicklnk1;
+	
+	
+
+	@FindBy (css="#content > div > div > a")
+	WebElement btncontinue1;
+	
+	
+
+
+//actions
+ 		
+	public void clicklnk(){
+		Editlnk.click();
+}
+	
+	public void setfax(String fax) {
+		
+		txtfax.sendKeys("544123");
+		
+	}
+	
+	public void clickcontinue() {
+		btncontinue.click();
+	}
+	
+	public void clicklnk1() {
+		modifylnk1.click();
+	}
+	
+	public void clickcontinue1() {
+		btncontinue1.click();
+	}
+	
+	
+	
+	
+	
+	
+
+
+}
+
+	
+	
+
+

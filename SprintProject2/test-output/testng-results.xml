@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-10T14:34:44Z" name="Default suite" finished-at="2022-06-10T14:34:44Z" duration-ms="363">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucmberoptions.TestRunner@4f49f6af]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-06-10T14:34:44Z" name="Default test" finished-at="2022-06-10T14:34:44Z" duration-ms="363">
+      <class name="cucmberoptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:cucmberoptions.TestRunner@4f49f6af]" started-at="2022-06-10T20:04:44Z" name="setUpClass" finished-at="2022-06-10T20:04:44Z" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucmberoptions.TestRunner@4f49f6af]" started-at="2022-06-10T20:04:44Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-10T20:04:44Z" duration-ms="41" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MyAccount]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucmberoptions.TestRunner@4f49f6af]" started-at="2022-06-10T20:04:44Z" name="tearDownClass" finished-at="2022-06-10T20:04:44Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucmberoptions.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

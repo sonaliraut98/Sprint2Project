@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+     
+        
+         <listener class-name="Uniform.listners"/>
+         <listener class-name="resources.ExtentReportNG"/>
+         
+         
+
+ </listeners>
+ <test name="Valid login page">
+    <classes>
+      <class name="Uniform.ValidloginPage"/>
+          </classes>
+      </test>
+      <test name="Valid Accountg Page">
+    <classes>
+      <class name="Uniform.ValidAccountPage"/>
+          </classes>
+      </test>
+      
+
+      </suite>
+
+      
+    

@@ -1,0 +1,20 @@
+Feature: MyAccount
+
+  Scenario Outline: successful open MyAccount Webpage
+    Given Initialize the browser with chrome
+    And Navigate to "http://uniformm1.upskills.in/" Site
+    And Click on Login link in home page to land on Secure in login Page
+    When User enters "sonaliraut0512@gmail.com" and "Sonali@123 " and logs in
+    Then Verify that user is succesfully open MyAccount Webpage
+    When Click on Edit your Account information link
+    Then Enter the Fax
+    And Click on Continue button
+    When Click on modify your wish list link
+    Then My wishlist page should be displayed
+    And Click on Continue button
+    And Close Browser
+
+    #Examples: 
+      #| username                 | password   |
+      #| sonaliraut0512@gmail.com | Sonali@123 |
+      #| sonaliraut5151@gmail.com |      12345 |
